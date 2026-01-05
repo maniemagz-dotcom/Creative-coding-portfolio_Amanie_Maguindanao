@@ -12,6 +12,11 @@ function setup() {
 
 function draw() {
   background(135,206,250); 
+fill(0,51,102); // color of text
+  textSize(20); // size of text
+  textFont('Times New Roman');
+  text("The Abstract Chromis", 330, 150); // text,x,y
+
   // Task 2
   // Extension for task 2
   // Added repeated ellipses and even spacing using calculations
@@ -20,22 +25,22 @@ function draw() {
   for (let x = 0; x<= width; x += spacing){
     for (let y = 0; y <= height; y += spacing){
       
-  // ellipse : moves vertically
+  // ellipse : moves vertically (sea bubbles)
   fill(204, 255, 255);
   ellipse(x, y, 70, 60); // x,y,w,h
     }
   }
 
 // Continuation of task 1
-  // circle : moves horizontally
+  // circle : moves horizontally (chromis fish)
   fill(0,204,255); // colour
   circle(pos, 200, 90); // x,y,d
   
-  // rectangle : moves vertically
+  // rectangle : moves vertically (frozen cube)
   fill(255, 255, 255); // colour
   rect(150, pos, 50, 55); // x,y,l,w
   
-  // triangle : stretches a corner horizontally
+  // triangle : stretches a corner horizontally (fin)
   fill(0,51,102); // colour
   triangle(150, 150, 200, 120, pos, 200); 
   //x1, y1, x2, y2, x3, y3
