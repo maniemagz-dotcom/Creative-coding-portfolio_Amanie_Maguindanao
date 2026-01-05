@@ -1,4 +1,4 @@
-# Experiment 1: Loops and Variables 
+# Experiment 1: The Abstract Chromis 
 
 ## [Link to Live Version](https://maniemagz-dotcom.github.io/Creative-coding-portfolio_Amanie_Maguindanao/Experiment_1-Abstract_Chromis/)
 
