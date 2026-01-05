@@ -1,0 +1,67 @@
+// Experiment 2: Combination of task 3 and 5
+
+// Task 3 : Interaction with Mouse and Keyboard 
+// Task 5 : Time-Based Animation
+
+// initalization of day variable with use of boolean
+let day = false; 
+
+// initialization of x and y for lerp
+let x = 100; 
+let y = 200;
+
+// initialization of pulse variable for pulsing animation
+let pulse = 0;
+
+function setup() {
+  createCanvas(800,900); // x,y
+}
+
+// Using keyPressed function for switching between day and night modes
+function keyPressed(){
+  if (key === ' '){
+    day = !day;
+  }
+}
+
+function draw() {
+  // Applying if-else conditions to check if the key is pressed to switch colors 
+  if (day){
+    background(255,204,0); // day
+  } else {
+    background(0,0,128); // night
+  }
+  
+  fill(255); // color of text
+  textSize(20); // size of text
+  textFont('Times New Roman')
+  text("Press the 'space' bar to change modes", 250,750); 
+  text("The Heart Attack", 330, 150); // text,x,y
+  
+  // Applying frameCount to create the pulsing animation
+  pulse = sin(frameCount * 0.10)*20;
+  fill(255,255,201)
+  drawHeart(width/2, height/2, 100 + pulse);
+  
+  // Applying lerp for smoother movement by adding 15% of delay to the second circle (shadow)
+  x = lerp(x, mouseX, 0.15);
+  y = lerp(y, mouseY, 0.15);
+  fill(51,51,51,150) // colour with opacity
+  circle(x, y, 90)
+  
+  // Using mouseX and mouseY for the circle to follow the mouse
+  fill(255,255,153,210); // colour with opacity
+  circle(mouseX,mouseY,100); // x,y,d
+  
+}
+
+// The following function is developed with assistance from Gemini 3.0 AI
+function drawHeart(x, y, size) {
+  fill(255, 0, 0); // Red fill
+  beginShape();
+  vertex(x, y); // Middle point
+  bezierVertex(x + size / 2, y - size, x + size, y, x, y + size * 0.8);
+  bezierVertex(x - size, y, x - size / 2, y - size, x, y);
+  endShape(CLOSE);
+}
+
