@@ -12,10 +12,7 @@ function setup() {
 
 function draw() {
   background(135,206,250); 
-fill(0,51,102); // color of text
-  textSize(20); // size of text
-  textFont('Times New Roman');
-  text("The Abstract Chromis", 330, 150); // text,x,y
+
 
   // Task 2
   // Extension for task 2
@@ -28,6 +25,10 @@ fill(0,51,102); // color of text
   // ellipse : moves vertically (sea bubbles)
   fill(204, 255, 255);
   ellipse(x, y, 70, 60); // x,y,w,h
+  fill(0,51,102); // color of text
+  textSize(20); // size of text
+  textFont('Times New Roman') 
+  text("The Abstract Chromis", 120, 80); // text,x,y
     }
   }
 
