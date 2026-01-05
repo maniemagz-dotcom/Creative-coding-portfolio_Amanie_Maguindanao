@@ -17,7 +17,7 @@ The most significant "cause and effect" discovery was how both spacing and pos v
 
 When the sketch is refreshed and the spacing is increased to 80, the piece becomes more minimalist and has a sea bubble-like texture. 
 
-![My Effect Image](exp_1-1.png)
+![My Effect Image](exp_1_1.png)
 
 One problem I encountered was ensuring the triangle remained balanced to depict the fins of the fish when the pos variable changed. I learned that by "pinning" two corners of the triangle to fixed coordinates and only allowing one corner to be controlled by the pos variable. This experiment taught me how a small amount of code can generate a variety of outcomes.
 
