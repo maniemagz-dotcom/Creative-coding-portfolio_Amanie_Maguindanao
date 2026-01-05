@@ -14,7 +14,8 @@ function draw() {
   background(135,206,250); 
   // Task 2
   // Extension for task 2
-  let spacing = 80;
+  // Added repeated ellipses and even spacing using calculations
+  let spacing = 80; // Change it to 65 to see a different variation
   
   for (let x = 0; x<= width; x += spacing){
     for (let y = 0; y <= height; y += spacing){
