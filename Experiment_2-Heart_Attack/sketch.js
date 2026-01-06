@@ -44,7 +44,7 @@ function draw() {
   drawHeart(width/2, height/2, 100 + pulse);
   
   // Applying lerp for smoother movement by adding 15% of delay to the second circle (shadow)
-  // Lerp method inspired by p5.js documentation
+  // Followed the lerp method by p5.js documentation
   x = lerp(x, mouseX, 0.15);
   y = lerp(y, mouseY, 0.15);
   fill(51,51,51,150) // colour with opacity
