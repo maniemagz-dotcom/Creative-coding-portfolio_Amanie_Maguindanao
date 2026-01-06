@@ -2,6 +2,8 @@
 
 ## [Link to Live Version](https://maniemagz-dotcom.github.io/Creative-coding-portfolio_Amanie_Maguindanao/Experiment_3-Random_Simulator/)
 
+## Documentation
+
 **Inspiration and Description:**
 The inspiration for this experiment was a combination of my previous work and a "try it yourself" exercise from a YouTube tutorial by Coding Train. While researching how to implement the random() for Task 4, I had a "eureka moment" when I realized that a trail "glitch" I had accidentally created during the trial-and-error phase of my experiments 1 and 2 could be featured for this experiment. My goal was to create a "Random Simulator" that functions like a generative sketchbook. By setting the background to only change on a keypress, I allow the user to paint with randomness, creating a piece with mouse movement.
 
