@@ -5,7 +5,7 @@ Tutorial: p5.js Coding Tutorial | Snake Game
 Source: https://youtu.be/fTKUPehFF2A?si=oRlNNvSctK0vUUt4
 Modifications: Changed the colors of the slither(snake) and grid. 
 Added visual mechanics and features such as timer and additional blocks: scissors and power-up blocks.
-Changed the interaction keys to ASWD style.
+Changed the interaction keys to WASD style.
 ----------------------------------------
 */
 
