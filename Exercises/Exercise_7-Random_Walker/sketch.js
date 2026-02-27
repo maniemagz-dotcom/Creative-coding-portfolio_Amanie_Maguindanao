@@ -12,6 +12,7 @@ function setup() {
   x = width / 2;
   y = height / 2;
 
+  /* Adding random colours */
   r = random(255);
   g = random(255);
   b = random(255);
@@ -26,11 +27,10 @@ function draw() {
   nextX = constrain(nextX, 0, width);
   nextY = constrain(nextY, 0, height);
 
-  /* Adding random colours */
-  r += random(-10, 10);
-  g += random(-10, 10);
+  r += random(-50, 50); // To add a bit of randomness to the colour changes
+  g += random(0, 10);
   b += random(-10, 10);
-  r = constrain(r, 0, 255);
+  r = constrain(r, 0, 255); // To constrain the colour values to stay within the valid range
   g = constrain(g, 0, 255);
   b = constrain(b, 0, 255);
 
@@ -40,7 +40,7 @@ function draw() {
   curveVertex(x,y);
   curveVertex(nextX,nextY);
   curveVertex(nextX,nextY);
-  endShape(CLOSE);
+  endShape();
   
   x = nextX;
   y = nextY;
