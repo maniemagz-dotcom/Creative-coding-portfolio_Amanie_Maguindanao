@@ -1,4 +1,5 @@
-/* Experiment 2: Combination of Exercises 3 and 5
+/* Experiment 2: Heart Attack
+Combination of Exercises 3 and 5
 Exercise 3 : Interaction with Mouse and Keyboard 
 Exercise 5 : Time-Based Animation
 */
