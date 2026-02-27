@@ -16,7 +16,7 @@
 
 | Exercise | Live Link |
 | -------- | --------- |
-| Exercise 7 - Random Walker | [View live] | (https://maniemagz-dotcom.github.io/Creative-coding-portfolio_Amanie_Maguindanao/Exercises/Exercise_7-Random_Walker/) |
-| Exercise 8 - Rotate Coordinate System | [View live] | (https://maniemagz-dotcom.github.io/Creative-coding-portfolio_Amanie_Maguindanao/Exercises/Exercise_8-Rotate_Coordinate_System/) |
-| Exercise 9 - Shake Ball Bounce | [View live] | (https://maniemagz-dotcom.github.io/Creative-coding-portfolio_Amanie_Maguindanao/Exercises/Exercise_9-Shake_Ball_Bounce/) |
-| Exercise 10 - Load Font and Draw Text | [View live] | (https://maniemagz-dotcom.github.io/Creative-coding-portfolio_Amanie_Maguindanao/Exercises/Exercise_10-Load_Font_Draw_Text/) |
+| Exercise 7 - Random Walker | [View live](https://maniemagz-dotcom.github.io/Creative-coding-portfolio_Amanie_Maguindanao/Exercises/Exercise_7-Random_Walker/) |
+| Exercise 8 - Rotate Coordinate System | [View live](https://maniemagz-dotcom.github.io/Creative-coding-portfolio_Amanie_Maguindanao/Exercises/Exercise_8-Rotate_Coordinate_System/) |
+| Exercise 9 - Shake Ball Bounce | [View live](https://maniemagz-dotcom.github.io/Creative-coding-portfolio_Amanie_Maguindanao/Exercises/Exercise_9-Shake_Ball_Bounce/) |
+| Exercise 10 - Load Font and Draw Text | [View live](https://maniemagz-dotcom.github.io/Creative-coding-portfolio_Amanie_Maguindanao/Exercises/Exercise_10-Load_Font_Draw_Text/) |
