@@ -1,19 +1,19 @@
-// Exercise 9 - Shake Ball Bounce  
-// Globalizing variables 
+/* Exercise 9 - Shake Ball Bounce */
+/* Globalizing variables */
 
-// For ball 1
+/* For ball 1 */
 let x = 100; 
 let y = 100;
 let sp1 = 6;
 let sp2 = 7;
 
-// For ball 2
+/* For ball 2 */
 let x2 = 200;
 let y2 = 200;
 let sp3 = 6;
 let sp4 = 7;
 
-// For ball 3
+/* For ball 3 */
 let x3 = 300;
 let y3 = 300;
 let sp5 = 6;
@@ -26,7 +26,7 @@ function setup() {
 function draw() {
   background(250,204,255);
   
-  // Ball 1
+  /* Ball 1 */
   fill(204,153,204);
   circle(x ,y ,50);
   x += sp1;
@@ -37,7 +37,7 @@ function draw() {
     sp2 = sp2 * -1;
   x = random(100,104); // to make the shaking effect
   
-  // Ball 2
+  /* Ball 2 */
   fill(204,204,255);
   circle(x2 ,y2 ,50);
   x2 += sp3;
@@ -48,7 +48,7 @@ function draw() {
     sp4 = sp4 * -1;
   x2 = random(200,204); 
   
-  // Ball 3
+  /* Ball 3 */
   fill(102,102,153);
   circle(x3 ,y3 ,50);
   x3 += sp5;

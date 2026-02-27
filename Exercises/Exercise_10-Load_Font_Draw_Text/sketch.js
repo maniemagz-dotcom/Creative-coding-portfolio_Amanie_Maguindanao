@@ -7,7 +7,7 @@ function setup() {
 function draw() {
   background(251,255,253);
   textSize(50);
-  text("I see colors!", width/2,height/2);
+  text("I see colours!", width/2,height/2);
   textAlign(CENTER,CENTER);
   
   textSize(30);
@@ -17,7 +17,7 @@ function draw() {
 
 function mousePressed(){
   if (mouseButton === LEFT){
-    fill(random(250), random(250), random(250),random(250)); // To generate random colors when pressed
+    fill(random(250), random(250), random(250),random(250)); // To generate random colours when pressed
     textSize(random(50,100)); // To create glitch effect
   } 
 }

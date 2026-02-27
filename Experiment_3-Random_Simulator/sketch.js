@@ -1,6 +1,9 @@
-// Experiment 3: The Random Simulator
+/* 
+Experiment 3: The Random Simulator 
+From Exercise 4 : Randomness Experiment
+*/
 
-// Initializing global variable pos
+/* Initializing global variable pos */
 let pos;
 
 function setup(){
@@ -8,7 +11,7 @@ function setup(){
   pos = random(300,600); // setting pos minimum and maximum range using random()
 }
 
-// Function for when space bar is pressed, background color changes randomly
+/* Function for when space bar is pressed, background color changes randomly */
 function keyPressed(){
   if (key === ' '){
     background(random(255), random(255), random(255), random(255));
@@ -22,17 +25,15 @@ function draw(){
   textSize(20); // size of text
   textAlign(CENTER, CENTER); // aligning text to center
   textFont('Times New Roman'); // setting text font to Times New Roman
-  // Displaying a welcome message and mechanics
+  /* Displaying a welcome message and mechanics */
   text("Welcome to the Random Simulator!", width / 2, height / 2 - 250); 
   text("Press the 'space' bar to change colors of background", width / 2, height / 2);
   text("or Click on the mouse to change the colors of square", width / 2, height / 2 + 20 )
 }
 
-// Function for when the mouse left-click is pressed, square's color changes randomly
+/*  Function for when the mouse left-click is pressed, square's colour changes randomly */
 function mousePressed(){
   if (mouseButton === LEFT){
     fill(random(255), random(255), random(255),random(255));
   } 
 }
-
-

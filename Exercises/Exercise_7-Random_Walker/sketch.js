@@ -26,7 +26,7 @@ function draw() {
   nextX = constrain(nextX, 0, width);
   nextY = constrain(nextY, 0, height);
 
-  /* Adding random colors */
+  /* Adding random colours */
   r += random(-10, 10);
   g += random(-10, 10);
   b += random(-10, 10);

@@ -1,4 +1,9 @@
-/* Experiment 1: Combination of Exercises 1 and 2 */
+/* 
+Experiment 1 : Abstract Chromis
+Combination of Exercises 1 and 2
+Exercise 1 : Shapes with variables
+Exercise 2 : Repetition with loops
+*/
 
 /* Exercise 1 */
 let pos;
